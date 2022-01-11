@@ -23,7 +23,6 @@ module.exports = {
         output: '$1.html',
         replaceInPlace: true,
         options: {
-          collapseWhitespace: false,
           ...inputs.minifierOptions
         }
       });
